@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<span style="font-family:monospace"><span style="color:#000000;background-color:#ffffff;">[gristlefist@archbox ~]$ # From your working tree:</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">sudo rsync -a --delete ./ /opt/skg/</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">sudo chown -R skg:skg /opt/skg</span><span style="color:#000000;background-color:#ffffff;">
+</span><br>
+<br><span style="color:#000000;background-color:#ffffff;"># Create venv &amp; install deps</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">sudo -u skg /usr/bin/env bash -lc '</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;cd /opt/skg</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;python -m venv .venv</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;. .venv/bin/activate</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;pip install --upgrade pip wheel</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;# Update requirements file first (see below), then:</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;pip install -r requirements.txt</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">'</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">sudo: rsync: command not found</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">Requirement already satisfied: pip in ./.venv/lib/python3.13/site-packages (25.3)</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">Requirement already satisfied: wheel in ./.venv/lib/python3.13/site-packages (0.45.1)</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;">ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">[gristlefist@archbox ~]$ </span><br><span style="color:#000000;background-color:#ffffff;">
+</span><br></span></body>
+</html>

@@ -1,0 +1,127 @@
+/home/gristlefist/SKG_MASTER
+├── home
+│   └── skg
+│       └── dev
+│           ├── bin
+│           ├── cli
+│           ├── Desktop
+│           ├── Documents
+│           ├── Downloads
+│           ├── mode.py
+│           ├── Music
+│           ├── patches
+│           ├── Pictures
+│           ├── Public
+│           ├── requirements.txt
+│           ├── run_skg.py
+│           ├── run_skg_v4.py
+│           ├── skg
+│           ├── skg_docs
+│           ├── skg_drafts
+│           ├── skills
+│           ├── telemetry
+│           ├── Templates
+│           ├── tools
+│           ├── toolshed
+│           └── Videos
+├── opt
+│   └── skg
+│       ├── bin
+│       │   └── skg
+│       ├── cli
+│       │   ├── code.py
+│       │   ├── contract.py
+│       │   ├── ethics.py
+│       │   ├── lfo.py
+│       │   ├── phase.py
+│       │   ├── reflect.py
+│       │   ├── status.py
+│       │   └── worldview.py
+│       ├── Desktop
+│       ├── Documents
+│       ├── Downloads
+│       ├── mode.py
+│       ├── Music
+│       ├── patches
+│       ├── Pictures
+│       ├── Public
+│       ├── requirements.txt
+│       ├── run_skg.py
+│       ├── run_skg_v4.py
+│       ├── skg
+│       │   ├── adaptive.py
+│       │   ├── autoheal.py
+│       │   ├── brain.py
+│       │   ├── coder.py
+│       │   ├── cognition_engine.py
+│       │   ├── config.py
+│       │   ├── continuity_fetch.py
+│       │   ├── continuity_index.py
+│       │   ├── continuity.py
+│       │   ├── encoder.py
+│       │   ├── ethics_contract.py
+│       │   ├── ethics_equilibrium.py
+│       │   ├── ethics.py
+│       │   ├── expressor.py
+│       │   ├── governance_gate.py
+│       │   ├── governance.py
+│       │   ├── growth.py
+│       │   ├── identity.py
+│       │   ├── __init__.py
+│       │   ├── interface
+│       │   ├── learn.py
+│       │   ├── learn_vault.py
+│       │   ├── maintenance.py
+│       │   ├── manifest.py
+│       │   ├── memory_normalize.py
+│       │   ├── paths.py
+│       │   ├── peer.py
+│       │   ├── physics_field.py
+│       │   ├── physics.py
+│       │   ├── predict.py
+│       │   ├── __pycache__
+│       │   ├── reflection.py
+│       │   ├── rotation.py
+│       │   ├── skills_engine.py
+│       │   ├── state.py
+│       │   ├── telemetry_bus.py
+│       │   └── tools
+│       ├── skg_docs
+│       │   ├── chat_full_restore_2025-11-03.imported
+│       │   ├── chat_full_restore_2025-11-03.txt
+│       │   ├── chat_full_restore_2025-11-04.txt
+│       │   ├── chats
+│       │   ├── continuity_extract_v4.txt
+│       │   ├── conversations.json
+│       │   └── extract_chat.py
+│       ├── skill_manifest.json
+│       ├── skills -> /home/skg/dev/skills
+│       ├── telemetry
+│       │   ├── field_hybrid.png
+│       │   ├── field.png
+│       │   └── frames
+│       ├── Templates
+│       ├── tools
+│       │   ├── allowlist.json
+│       │   ├── archive_index.py
+│       │   ├── continuity_console.py
+│       │   ├── continuity_engine.py
+│       │   ├── field_renderer.py
+│       │   ├── model_switcher.py
+│       │   ├── __pycache__
+│       │   ├── skg_autoheal.py
+│       │   ├── skg_brain.py
+│       │   ├── skg_coder.py
+│       │   ├── skg_coder_validator.py
+│       │   ├── skg_field_render_hybrid.py
+│       │   ├── skg_field_render.py
+│       │   ├── skg_frames_prune.py
+│       │   ├── skg_integrator.py
+│       │   ├── skg_skill_genesis.py
+│       │   ├── skill_manifest.py
+│       │   ├── sync_runtime.py
+│       │   └── telemetry_bridge.py
+│       └── Videos
+└── tree_overview.txt
+
+46 directories, 79 files

@@ -1,0 +1,11 @@
+pacman -Syu --noconfirm
+sudo pacman -S --needed --noconfirm \
+  python python-pip git base-devel openssl libffi sqlite \
+  acpi upower iputils iproute2 nmap traceroute curl
+# Optional for audio/capture:
+# sudo pacman -S --needed --noconfirm alsa-utils pipewire wireplumber
+
+# Networking raw ICMP for unprivileged processes (optional)
+echo "net.ipv4.ping_group_range=0 2147483647" | sudo tee /etc/sysctl.d/99-skg.conf
+echo "fs.inotify.max_user_watches=524288"      | sudo tee -a /etc/sysctl.d/99-skg.conf
+sudo sysctl --system

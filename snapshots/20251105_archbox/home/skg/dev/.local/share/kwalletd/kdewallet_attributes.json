@@ -1,0 +1,15 @@
+{
+    "$fdo_created": "1762222100",
+    "$fdo_modified": "1762228407",
+    "Chromium Keys/Chromium Safe Storage": {
+        "$fdo_created": "1762228407",
+        "$fdo_mime_type": "text/plain",
+        "$fdo_modified": "1762228407",
+        "attributes": {
+            "server": "Chromium Keys",
+            "type": "plaintext",
+            "user": "Chromium Safe Storage",
+            "xdg:schema": "org.qt.keychain"
+        }
+    }
+}

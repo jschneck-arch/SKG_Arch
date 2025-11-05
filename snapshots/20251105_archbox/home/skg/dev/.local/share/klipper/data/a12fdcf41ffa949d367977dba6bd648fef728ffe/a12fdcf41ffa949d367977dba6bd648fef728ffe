@@ -1,0 +1,4 @@
+pacman -S --needed --noconfirm \
+    metasploit hashcat john gobuster \
+    hydra impacket mitmproxy wireshark-qt \
+    strace ltrace gdb radare2 sqlite

@@ -1,0 +1,5 @@
+pip install \
+    numpy scipy pandas scikit-learn \
+    torch torchvision torchaudio \
+    networkx neo4j pymongo fastapi \
+    uvicorn openai rich loguru

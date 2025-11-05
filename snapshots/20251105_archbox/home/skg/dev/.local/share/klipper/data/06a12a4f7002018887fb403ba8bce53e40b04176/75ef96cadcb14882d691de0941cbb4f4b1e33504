@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<span style="font-family:monospace"><span style="color:#000000;background-color:#ffffff;">[root@archbox gristlefist]# pip install \</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;&#160;&#160;numpy scipy pandas scikit-learn \</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;&#160;&#160;torch torchvision torchaudio \</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;&#160;&#160;networkx neo4j pymongo fastapi \</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;"> &#160;&#160;&#160;uvicorn openai rich loguru</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="font-weight:bold;color:#ff5454;background-color:#ffffff;">error</span><span style="color:#000000;background-color:#ffffff;">: </span><span style="font-weight:bold;color:#000000;background-color:#ffffff;">externally-managed-environment</span><span style="color:#000000;background-color:#ffffff;">
+</span><br>
+<br><span style="color:#b21818;background-color:#ffffff;">×</span><span style="color:#000000;background-color:#ffffff;"> This environment is externally managed</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;">╰─&gt;</span><span style="color:#000000;background-color:#ffffff;"> To install Python packages system-wide, try 'pacman -S</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;python-xyz', where xyz is the package you are trying to</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;install.</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;If you wish to install a non-Arch-packaged Python package,</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;create a virtual environment using 'python -m venv path/to/venv'.</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;Then use path/to/venv/bin/python and path/to/venv/bin/pip.</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;If you wish to install a non-Arch packaged Python application,</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;it may be easiest to use 'pipx install xyz', which will manage a</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;virtual environment for you. Make sure you have python-pipx</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#b21818;background-color:#ffffff;"> &#160;&#160;</span><span style="color:#000000;background-color:#ffffff;">&#160;installed via pacman.</span><span style="color:#000000;background-color:#ffffff;">
+</span><br>
+<br><span style="font-weight:bold;color:#ff54ff;background-color:#ffffff;">note</span><span style="color:#000000;background-color:#ffffff;">: If you believe this is a mistake, please contact your Python installation or OS distribution provider. Y</span><br>ou can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packag<br>es.<span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="font-weight:bold;color:#54ffff;background-color:#ffffff;">hint</span><span style="color:#000000;background-color:#ffffff;">: See PEP 668 for the detailed specification.</span><span style="color:#000000;background-color:#ffffff;">
+</span><br><span style="color:#000000;background-color:#ffffff;">[root@archbox gristlefist]# </span><br><span style="color:#000000;background-color:#ffffff;">
+</span><br></span></body>
+</html>
