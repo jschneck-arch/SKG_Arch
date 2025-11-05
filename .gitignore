@@ -1,0 +1,6 @@
+# Ignore chat backups and logs
+**/chat_full_restore_*.txt
+**/conversations.json
+**/continuity_extract_*.txt
+**/extract_chat.py
+**/chats/
