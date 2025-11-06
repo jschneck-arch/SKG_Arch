@@ -1,0 +1,4 @@
+[TimeZones]
+LocalZone=America/Belle_Plaine
+ZoneinfoDir=/usr/share/zoneinfo
+Zonetab=/usr/share/zoneinfo/zone.tab

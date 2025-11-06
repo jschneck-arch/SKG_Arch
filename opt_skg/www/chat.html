@@ -1,0 +1,43 @@
+<!doctype html><meta charset="utf-8"/>
+<title>SKG Chat</title>
+<style>
+body{font-family:system-ui;margin:20px;max-width:900px}
+#log{border:1px solid #ddd;border-radius:12px;padding:12px;height:54vh;overflow:auto;white-space:pre-wrap}
+input,button,textarea{font:inherit}
+textarea{width:100%;height:120px}
+.row{display:flex;gap:8px;margin:8px 0}
+label{font-weight:600}
+</style>
+<h1>SKG Chat</h1>
+<div class="row">
+  <label>Session:</label>
+  <input id="session" value="">
+  <button id="new">New</button>
+</div>
+<div id="log"></div>
+<div class="row">
+  <textarea id="text" placeholder="Ask SKG..."></textarea>
+</div>
+<div class="row">
+  <button id="send">Send</button>
+</div>
+<script>
+const log = document.getElementById('log');
+const text = document.getElementById('text');
+const session = document.getElementById('session');
+document.getElementById('new').onclick = () => {
+  session.value = 'sess_' + Math.random().toString(36).slice(2,10);
+};
+document.getElementById('send').onclick = async () => {
+  const s = session.value || 'local';
+  const payload = { text: text.value, session: s };
+  log.innerText += "\\n> ("+s+") " + text.value + "\\n";
+  const r = await fetch('/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)});
+  const j = await r.json();
+  log.innerText += JSON.stringify(j, null, 2) + "\\n";
+  log.scrollTop = log.scrollHeight;
+  text.value = '';
+};
+// default new session
+document.getElementById('new').click();
+</script>

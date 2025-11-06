@@ -1,0 +1,25 @@
+#!/bin/bash
+# unified SKG CLI launcher (clean syntax)
+VENV="/opt/skg/.venv"
+SKG_DIR="/opt/skg"
+export PYTHONPATH=/opt/skg:$PYTHONPATH
+
+case "$1" in
+  self)
+    exec "$VENV/bin/python" "$SKG_DIR/cli/self.py" "${@:2}"
+    ;;
+  assimilate)
+    exec "$VENV/bin/python" "$SKG_DIR/cli/assimilate.py" "${@:2}"
+    ;;
+  smoke)
+    exec "$VENV/bin/python" "$SKG_DIR/cli/smoke.py" "${@:2}"
+    ;;
+  snapshot)
+    exec "$VENV/bin/python" "$SKG_DIR/cli/snapshot.py" "$@"
+    ;;
+
+  *)
+    echo "Usage: skg {self|assimilate|smoke}"
+    exit 1
+    ;;
+esac
