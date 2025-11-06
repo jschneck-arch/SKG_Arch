@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+*.pid
+*.tmp
+/opt_skg/telemetry/
+/opt_skg/.venv/
+/opt_skg/var/
+/opt_skg/run/
+/home_skg/dev/telemetry/
