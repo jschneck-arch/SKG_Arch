@@ -1,2 +1,0 @@
-sudo rsync -a --delete ./ /opt/skg/
-sudo chown -R skg:skg /opt/skg

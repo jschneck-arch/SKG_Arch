@@ -1,5 +1,0 @@
-pacman -S --needed --noconfirm \
-    nodejs npm yarn \
-    redis postgresql sqlite \
-    zeromq python-zmq protobuf \
-    python-networkx graphviz

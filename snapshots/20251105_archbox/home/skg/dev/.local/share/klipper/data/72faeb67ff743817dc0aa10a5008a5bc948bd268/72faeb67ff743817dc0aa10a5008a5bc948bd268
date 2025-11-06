@@ -1,7 +1,0 @@
-[root@archbox gristlefist]# usermod -aG wheel gristlefist
-[root@archbox gristlefist]# EDITOR=nano visudo
-visudo: specified editor (nano) doesn't exist
-[root@archbox gristlefist]# pacman install visudo
-error: no operation specified (use -h for help)
-[root@archbox gristlefist]# pacman-install visudo
-bash: pacman-install: command not found

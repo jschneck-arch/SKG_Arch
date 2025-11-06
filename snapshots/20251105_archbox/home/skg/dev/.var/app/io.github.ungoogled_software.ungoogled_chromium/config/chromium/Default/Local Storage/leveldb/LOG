@@ -1,8 +1,0 @@
-2025/11/04-03:53:27.137 7 Creating DB /home/gristlefist/.var/app/io.github.ungoogled_software.ungoogled_chromium/config/chromium/Default/Local Storage/leveldb since it was missing.
-2025/11/04-03:53:27.161 7 Reusing MANIFEST /home/gristlefist/.var/app/io.github.ungoogled_software.ungoogled_chromium/config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2025/11/04-04:00:28.363 7 Level-0 table #5: started
-2025/11/04-04:00:28.374 7 Level-0 table #5: 35169 bytes OK
-2025/11/04-04:00:28.379 7 Delete type=0 #3
-2025/11/04-05:04:43.617 9 Level-0 table #7: started
-2025/11/04-05:04:43.624 9 Level-0 table #7: 26891 bytes OK
-2025/11/04-05:04:43.631 9 Delete type=0 #4

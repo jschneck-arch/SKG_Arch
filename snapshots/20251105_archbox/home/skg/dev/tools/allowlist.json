@@ -1,3 +1,0 @@
-{
-  "bash": ["echo","cat","grep","awk","sed","head","tail","wc","jq","ls","ss","journalctl","python","env","printf","cut","tr","sort","uniq"]
-}

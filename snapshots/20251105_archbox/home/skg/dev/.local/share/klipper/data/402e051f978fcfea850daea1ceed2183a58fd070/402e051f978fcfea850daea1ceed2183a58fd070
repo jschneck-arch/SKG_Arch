@@ -1,4 +1,0 @@
-sudo useradd --system --home /var/lib/skg --shell /usr/bin/nologin skg || true
-sudo mkdir -p /opt/skg /etc/skg /var/lib/skg /var/log/skg
-sudo chown -R skg:skg /opt/skg /var/lib/skg /var/log/skg
-sudo chmod 0755 /opt/skg /etc/skg /var/lib/skg /var/log/skg

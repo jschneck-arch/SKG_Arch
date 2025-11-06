@@ -1,7 +1,0 @@
-sudo pacman -Syu --noconfirm
-sudo pacman -S --needed --noconfirm \
-    base-devel git wget curl openssh \
-    cmake ninja gcc clang make pkgconf \
-    linux-headers linux-firmware \
-    python python-pip python-virtualenv \
-    go rust jq unzip zip xz

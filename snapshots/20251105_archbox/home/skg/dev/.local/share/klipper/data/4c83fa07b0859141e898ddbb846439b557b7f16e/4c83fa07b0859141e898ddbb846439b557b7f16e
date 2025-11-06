@@ -1,3 +1,0 @@
-pacman -S --needed --noconfirm \
-    net-tools nmap socat openbsd-netcat \
-    wireshark-qt tcpdump

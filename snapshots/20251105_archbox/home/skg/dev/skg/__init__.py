@@ -1,1 +1,0 @@
-# SKG package init
